@@ -1,5 +1,10 @@
 //Usage:
-// java MultipleAttackRoller [number of attacks] [bonus to hit] [target AC]
+// java MultipleAttackRoller [number of attacks] [bonus to hit] [target AC] [Dice formula]
+
+// for example: java MultipleAttackRoller 10 3 15 2d6+1
+// This would roll 10 attacks at a +1 modifier against an Armor Class of 15.
+// The attacks that hit would do 2d6+1 damage, and any that crit would do 4d6+1.
+
 import java.util.Random;
 
 public class MultipleAttackRoller {
